@@ -1,0 +1,29 @@
+#testimonial {
+    background-color: var(--gray);
+    padding: 3rem;
+}
+
+.testimonialsCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.testimonialsContent {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonialsContent h2 {
+    font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+    .testimonialsCard {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
